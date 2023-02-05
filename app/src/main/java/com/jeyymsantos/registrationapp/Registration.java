@@ -52,7 +52,7 @@ public class Registration extends AppCompatActivity {
                 password = etPassword.getText().toString();
 
                 RequestQueue queue = Volley.newRequestQueue(getApplicationContext());
-                String url ="http://192.168.68.101/CTAPDEVL/registration-activity/register.php";
+                String url ="https://jeyym-tech.preview-domain.com/register.php";
 
                 StringRequest stringRequest = new StringRequest(Request.Method.POST, url,
                         new Response.Listener<String>() {
